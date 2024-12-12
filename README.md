@@ -101,7 +101,7 @@ The project includes a suite of automated tests using `jest` and `supertest`. Th
 To run the tests:
 
 ```bash
-yarn test
+npm test
 ```
 
 This command will:
@@ -116,7 +116,8 @@ If you like to use Docker compose locally This project uses Docker for container
 To start the containers:
 
 ```bash
-docker-compose up
+npm run docker:build
+npm run docker:bash
 ```
 ### API Endpoints
 
