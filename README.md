@@ -18,11 +18,9 @@ This project is an Express-based REST API that provides authentication, session 
 - TypeScript: Statically typed JavaScript for scalability and reliability
 - JWT (JSON Web Token): Token-based authentication
 - Sequlize: RDMS database
-//
 - Redis: Session store
 - Jest: Testing framework
 - Supertest: HTTP assertions for testing API endpoints
-//
 - Faker.js: Generate fake data for testing
 
 ## Getting Started
@@ -32,7 +30,6 @@ This project is an Express-based REST API that provides authentication, session 
 - Node.js (v18 or higher)
 - Docker (optional, for containerized development)
 - Postgres
-//
 - Redis
 
 ### Installation
@@ -126,7 +123,7 @@ npm run docker:bash
 - POST `/api/v1/auth/register` - Register a new user
 - POST `/api/v1/auth/login` - Log in an existing user
 
-#### Fixture Routes
+#### Event Routes
 - POST `/api/v1/events/initialize` - Create a new event
 - POST `/api/v1/events/book` - Book a ticket
 - POST `/api/v1/events/cancel` - Cancel an booking
