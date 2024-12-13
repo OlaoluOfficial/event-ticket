@@ -1,4 +1,4 @@
-# Team and Fixtures API
+# Event Ticket API
 
 This project is an Express-based REST API that provides authentication, session management. The API uses JWT tokens for authentication, Redis for session management, and Sequelize as the RDMS.
 
